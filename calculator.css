@@ -1,0 +1,35 @@
+h1 {
+    text-align: center;
+    color: rgb(163, 8, 163);
+}
+table {
+    width: 100%;
+    max-width: 600px;
+    margin: 40px auto;
+    border-radius: 20px;
+    align-items: center;
+    background-color: pink; 
+}
+button {
+    background-color: plum;               
+    align-items: center;
+    width: 60px;
+    height: 40px;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 20px;
+}
+#result {
+    background-color: plum;
+    width: 170px;
+    height: 40px;
+    border-radius: 20px;
+    align-items: center;
+    margin: 10px;
+    padding: 20px;
+}
+/* @media (max-width: 800px) {
+    table {
+        flex-wrap: wrap;
+    }
+} */

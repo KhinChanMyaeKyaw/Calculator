@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="calculator.css">
+</head>
+<body>
+    <table>
+        <h1>Calculator</h1>
+        <tr>
+            <td colspan="2">
+                <!-- don't use input type -->
+                <div class="result" id="result"></div>
+            </td>
+            <td><button onclick="main('clear')">C</button></td>
+            <td><button onclick="main('delete')">&#9003;</button></td>
+            <td><button onclick="main('%')">%</button></td>
+        </tr>
+        <tr>
+            <td><button onclick="number('7')">7</button></td>
+            <td><button onclick="number('8')">8</button></td>
+            <td><button onclick="number('9')">9</button></td>
+            <td><button onclick="operator('square')">x<sup>2</sup></button></td>
+            <td><button onclick="main('/')">&#247</button></td>
+        </tr>
+        <tr>
+            <td><button onclick="number('4')">4</button></td>
+            <td><button onclick="number('5')">5</button></td>
+            <td><button onclick="number('6')">6</button></td>
+            <td><button onclick="operator('cube')">x<sup>3</sup></button></td>
+            <td><button onclick="main('*')">&times;</button></td>
+        </tr>
+        <tr>
+            <td><button onclick="number('1')">1</button></td>
+            <td><button onclick="number('2')">2</button></td>
+            <td><button onclick="number('3')">3</button></td>
+            <td><button onclick="operator('squareRoot')">&#8730;</button></td>
+            <td><button onclick="main('-')">-</button></td>
+        </tr>
+        <tr>
+            <td><button onclick="number('0')">0</button></td>
+            <td><button onclick="main('.')">.</button></td>
+            <td><button onclick="main('equal')">=</button></td>
+            <td><button onclick="operator('cubeRoot')">&#8731;</button></td>
+            <td><button onclick="main('+')">+</button></td>
+        </tr>
+    </table>  
+
+    
+<script src="calculator.js"></script>
+</body>
+</html>        
